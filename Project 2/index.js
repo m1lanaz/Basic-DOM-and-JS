@@ -41,9 +41,8 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function(){
             var kickBass = new Audio('sounds/kick-bass.mp3');
             kickBass.play();
         break;
-        
-    default:
 
+    default:
     }
     });
 }
